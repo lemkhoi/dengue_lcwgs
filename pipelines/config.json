@@ -1,0 +1,42 @@
+{
+    "home_dir": "/well/ansari/users/osr869/host/lcwgs_edits/",
+    "fastq_folder": "/well/ansari/projects/human/LCWGS/Vietnam_main_phase/raw_data/wg_fastqs/",
+    "seq_batches": ["A100000", "A200000", "A250065", "A250077", "A250078", "A250086", "A250087", "A250088", "A250089", "A300000", "A260002", "A400000"],
+    "gwas_batches": ["A100000", "A200000", "A250065", "A250077", "A250078", "A250086", "A250087", "A250088", "A250089", "A300000", "A260002", "A400000"],
+    "samples_lc": "data/sample_tsvs/samples_lc.tsv",
+
+    "ref38": "data/references/GRCh38.fa",
+
+    "adapter": "data/miscallneous/IDT-Stubby-PE.fa",
+
+    "dense_egt": "data/chip/omni5m/InfiniumOmni5-4v1-2_A1_ClusterFile.egt",
+    "dense_bpm": "data/chip/omni5m/InfiniumOmni5-4v1-2_A2.bpm",
+
+    "reheader": false,
+    "rename_samples": false,
+
+    "num_coverage": 5,
+    "access_bed": "data/bedgraph/pilot.bed",
+    "hla_bed": "data/bedgraph/hla.bed",
+    "ref_panel": "GAsP_b38",
+    "hc_panel": "oneKG",
+
+    "RECOMB_POP": "KHV",
+    "NGEN": 100,
+    "WINDOWSIZE": 5000000,
+    "BUFFER": 0,
+
+    "gw_info_filter": 0.9,
+    "hla_info_filter": 0.7,
+    "maf_filter": 0.01,
+
+    "IPD_IMGT_version": "3570",
+    "hla_b38_start": 25587319,
+    "hla_b38_end": 33629686,
+    "hla_b38_start_extra": 25000000,
+    "hla_b38_end_extra": 34000000,
+
+    "gwas_exclude_samples": "data/sample_tsvs/samples_exclude_gwas_all.tsv",
+    "gwas_include_samples": "data/sample_tsvs/samples_include_gwas_all.tsv",
+    "gwas_n_PCs": 2
+}

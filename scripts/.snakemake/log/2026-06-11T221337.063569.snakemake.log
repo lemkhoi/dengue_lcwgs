@@ -1,0 +1,93 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 6
+Rules claiming more threads will be scaled down.
+Job stats:
+job                      count
+---------------------  -------
+all                          1
+combine_vcf_af               1
+generate_info_plot_af        1
+generate_vcf_df             22
+merge_vcf_af                22
+total                       47
+
+Select jobs to execute...
+
+[Thu Jun 11 22:14:11 2026]
+rule generate_vcf_df:
+    input: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged/chr14.vcf.gz
+    output: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_df/df.chr14.txt
+    jobid: 29
+    reason: Missing output files: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_df/df.chr14.txt
+    wildcards: chr=14
+    resources: tmpdir=/tmp/slurm-21596099
+
+[Thu Jun 11 22:14:11 2026]
+rule generate_vcf_df:
+    input: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged/chr21.vcf.gz
+    output: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_df/df.chr21.txt
+    jobid: 43
+    reason: Missing output files: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_df/df.chr21.txt
+    wildcards: chr=21
+    resources: tmpdir=/tmp/slurm-21596099
+
+[Thu Jun 11 22:14:11 2026]
+rule generate_vcf_df:
+    input: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged/chr7.vcf.gz
+    output: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_df/df.chr7.txt
+    jobid: 15
+    reason: Missing output files: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_df/df.chr7.txt
+    wildcards: chr=7
+    resources: tmpdir=/tmp/slurm-21596099
+
+[Thu Jun 11 22:14:11 2026]
+rule generate_vcf_df:
+    input: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged/chr2.vcf.gz
+    output: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_df/df.chr2.txt
+    jobid: 5
+    reason: Missing output files: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_df/df.chr2.txt
+    wildcards: chr=2
+    resources: tmpdir=/tmp/slurm-21596099
+
+[Thu Jun 11 22:14:11 2026]
+rule generate_vcf_df:
+    input: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged/chr17.vcf.gz
+    output: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_df/df.chr17.txt
+    jobid: 35
+    reason: Missing output files: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_df/df.chr17.txt
+    wildcards: chr=17
+    resources: tmpdir=/tmp/slurm-21596099
+
+[Thu Jun 11 22:14:11 2026]
+rule generate_vcf_df:
+    input: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged/chr4.vcf.gz
+    output: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_df/df.chr4.txt
+    jobid: 9
+    reason: Missing output files: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_df/df.chr4.txt
+    wildcards: chr=4
+    resources: tmpdir=/tmp/slurm-21596099
+
+[Thu Jun 11 23:00:58 2026]
+Finished job 43.
+1 of 47 steps (2%) done
+Select jobs to execute...
+
+[Thu Jun 11 23:00:59 2026]
+rule generate_vcf_df:
+    input: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged/chr20.vcf.gz
+    output: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_df/df.chr20.txt
+    jobid: 41
+    reason: Missing output files: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_df/df.chr20.txt
+    wildcards: chr=20
+    resources: tmpdir=/tmp/slurm-21596099
+
+[Thu Jun 11 23:50:24 2026]
+Finished job 35.
+2 of 47 steps (4%) done
+[Fri Jun 12 00:09:32 2026]
+Finished job 41.
+3 of 47 steps (6%) done
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2026-06-11T221337.063569.snakemake.log

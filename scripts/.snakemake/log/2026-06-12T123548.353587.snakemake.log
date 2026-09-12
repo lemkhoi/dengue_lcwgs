@@ -1,0 +1,28 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job                      count
+---------------------  -------
+all                          1
+combine_vcf_af               1
+generate_info_plot_af        1
+generate_vcf_df              1
+merge_vcf_af                 1
+total                        5
+
+Select jobs to execute...
+
+[Fri Jun 12 12:36:22 2026]
+rule generate_vcf_df:
+    input: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged/chr1.vcf.gz
+    output: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_df/df.chr1.txt
+    jobid: 3
+    reason: Missing output files: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_df/df.chr1.txt
+    wildcards: chr=1
+    resources: tmpdir=/tmp/slurm-21617267, mem=40G, mem_mb=40000
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2026-06-12T123548.353587.snakemake.log

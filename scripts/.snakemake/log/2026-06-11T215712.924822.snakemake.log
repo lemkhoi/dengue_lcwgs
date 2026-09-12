@@ -1,0 +1,5 @@
+Building DAG of jobs...
+MissingInputException in rule all in file /gpfs3/well/ansari/users/osr869/host/lcwgs_edits/scripts/vis_imputation_plots4.smk, line 12:
+Missing input files for rule all:
+    affected files:
+        /well/ansari/users/osr869/host/lcwgs_edits/graphs/quit_result_combined.tsv

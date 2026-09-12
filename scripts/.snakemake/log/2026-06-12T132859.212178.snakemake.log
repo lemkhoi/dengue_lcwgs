@@ -1,0 +1,39 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job                      count
+---------------------  -------
+add_af_to_vcf                1
+all                          1
+combine_vcf_af               1
+extract_info                 1
+generate_info_plot_af        1
+total                        5
+
+Select jobs to execute...
+
+[Fri Jun 12 13:29:32 2026]
+rule add_af_to_vcf:
+    input: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged/chr1.vcf.gz, /well/ansari/users/osr869/host/lcwgs_edits/data/gnomAD_MAFs/eas/gnomAD_MAF_eas_chr1.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/af_header.txt
+    output: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/chr1.vcf.gz
+    jobid: 3
+    reason: Missing output files: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/chr1.vcf.gz
+    wildcards: chr=1
+    resources: tmpdir=/tmp/slurm-21618099
+
+[Fri Jun 12 13:29:34 2026]
+Error in rule add_af_to_vcf:
+    jobid: 3
+    input: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged/chr1.vcf.gz, /well/ansari/users/osr869/host/lcwgs_edits/data/gnomAD_MAFs/eas/gnomAD_MAF_eas_chr1.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/af_header.txt
+    output: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/chr1.vcf.gz
+    shell:
+        
+        bcftools annotate             -a /well/ansari/users/osr869/host/lcwgs_edits/data/gnomAD_MAFs/eas/gnomAD_MAF_eas_chr1.txt             -h /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/af_header.txt             -c CHROM,POS,REF,ALT,INFO/AF_EAS             /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged/chr1.vcf.gz             -Oz -o /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/chr1.vcf.gz
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2026-06-12T132859.212178.snakemake.log

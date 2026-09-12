@@ -1,0 +1,11 @@
+name: vani_aln17
+channels:
+  - bioconda
+  - conda-forge
+dependencies:
+  - snakemake
+  - bwa=0.7.12=1
+  - samtools
+  - picard=3.0.0=hdfd78af_0
+  - picard-slim=2.27.4=hdfd78af_0
+  - openjdk=17

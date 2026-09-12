@@ -1,0 +1,630 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 10
+Rules claiming more threads will be scaled down.
+Job stats:
+job                      count
+---------------------  -------
+add_af_to_vcf               21
+all                          1
+combine_vcf_af               1
+extract_info                21
+generate_info_plot_af        1
+total                       45
+
+Select jobs to execute...
+
+[Fri Jun 12 15:21:25 2026]
+rule add_af_to_vcf:
+    input: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged/chr20.vcf.gz, /well/ansari/users/osr869/host/lcwgs_edits/data/gnomAD_MAFs/eas/gnomAD_MAF_eas_chr20.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/af_header.txt
+    output: /well/ansari/users/osr869/host/lcwgs_edits/data/gnomAD_bgzip/gnomAD_MAF_eas_chr20.txt.gz, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/chr20.vcf.gz
+    jobid: 41
+    reason: Missing output files: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/chr20.vcf.gz
+    wildcards: chr=20
+    resources: tmpdir=/tmp/slurm-21620293
+
+
+[Fri Jun 12 15:21:25 2026]
+rule add_af_to_vcf:
+    input: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged/chr22.vcf.gz, /well/ansari/users/osr869/host/lcwgs_edits/data/gnomAD_MAFs/eas/gnomAD_MAF_eas_chr22.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/af_header.txt
+    output: /well/ansari/users/osr869/host/lcwgs_edits/data/gnomAD_bgzip/gnomAD_MAF_eas_chr22.txt.gz, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/chr22.vcf.gz
+    jobid: 45
+    reason: Missing output files: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/chr22.vcf.gz
+    wildcards: chr=22
+    resources: tmpdir=/tmp/slurm-21620293
+
+
+[Fri Jun 12 15:21:25 2026]
+rule add_af_to_vcf:
+    input: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged/chr11.vcf.gz, /well/ansari/users/osr869/host/lcwgs_edits/data/gnomAD_MAFs/eas/gnomAD_MAF_eas_chr11.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/af_header.txt
+    output: /well/ansari/users/osr869/host/lcwgs_edits/data/gnomAD_bgzip/gnomAD_MAF_eas_chr11.txt.gz, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/chr11.vcf.gz
+    jobid: 23
+    reason: Missing output files: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/chr11.vcf.gz
+    wildcards: chr=11
+    resources: tmpdir=/tmp/slurm-21620293
+
+
+[Fri Jun 12 15:21:25 2026]
+rule add_af_to_vcf:
+    input: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged/chr4.vcf.gz, /well/ansari/users/osr869/host/lcwgs_edits/data/gnomAD_MAFs/eas/gnomAD_MAF_eas_chr4.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/af_header.txt
+    output: /well/ansari/users/osr869/host/lcwgs_edits/data/gnomAD_bgzip/gnomAD_MAF_eas_chr4.txt.gz, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/chr4.vcf.gz
+    jobid: 9
+    reason: Missing output files: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/chr4.vcf.gz
+    wildcards: chr=4
+    resources: tmpdir=/tmp/slurm-21620293
+
+
+[Fri Jun 12 15:21:25 2026]
+rule add_af_to_vcf:
+    input: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged/chr7.vcf.gz, /well/ansari/users/osr869/host/lcwgs_edits/data/gnomAD_MAFs/eas/gnomAD_MAF_eas_chr7.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/af_header.txt
+    output: /well/ansari/users/osr869/host/lcwgs_edits/data/gnomAD_bgzip/gnomAD_MAF_eas_chr7.txt.gz, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/chr7.vcf.gz
+    jobid: 15
+    reason: Missing output files: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/chr7.vcf.gz
+    wildcards: chr=7
+    resources: tmpdir=/tmp/slurm-21620293
+
+
+[Fri Jun 12 15:21:25 2026]
+rule add_af_to_vcf:
+    input: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged/chr15.vcf.gz, /well/ansari/users/osr869/host/lcwgs_edits/data/gnomAD_MAFs/eas/gnomAD_MAF_eas_chr15.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/af_header.txt
+    output: /well/ansari/users/osr869/host/lcwgs_edits/data/gnomAD_bgzip/gnomAD_MAF_eas_chr15.txt.gz, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/chr15.vcf.gz
+    jobid: 31
+    reason: Missing output files: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/chr15.vcf.gz
+    wildcards: chr=15
+    resources: tmpdir=/tmp/slurm-21620293
+
+
+[Fri Jun 12 15:21:25 2026]
+rule add_af_to_vcf:
+    input: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged/chr8.vcf.gz, /well/ansari/users/osr869/host/lcwgs_edits/data/gnomAD_MAFs/eas/gnomAD_MAF_eas_chr8.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/af_header.txt
+    output: /well/ansari/users/osr869/host/lcwgs_edits/data/gnomAD_bgzip/gnomAD_MAF_eas_chr8.txt.gz, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/chr8.vcf.gz
+    jobid: 17
+    reason: Missing output files: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/chr8.vcf.gz
+    wildcards: chr=8
+    resources: tmpdir=/tmp/slurm-21620293
+
+
+[Fri Jun 12 15:21:25 2026]
+rule add_af_to_vcf:
+    input: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged/chr17.vcf.gz, /well/ansari/users/osr869/host/lcwgs_edits/data/gnomAD_MAFs/eas/gnomAD_MAF_eas_chr17.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/af_header.txt
+    output: /well/ansari/users/osr869/host/lcwgs_edits/data/gnomAD_bgzip/gnomAD_MAF_eas_chr17.txt.gz, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/chr17.vcf.gz
+    jobid: 35
+    reason: Missing output files: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/chr17.vcf.gz
+    wildcards: chr=17
+    resources: tmpdir=/tmp/slurm-21620293
+
+
+[Fri Jun 12 15:21:25 2026]
+rule add_af_to_vcf:
+    input: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged/chr18.vcf.gz, /well/ansari/users/osr869/host/lcwgs_edits/data/gnomAD_MAFs/eas/gnomAD_MAF_eas_chr18.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/af_header.txt
+    output: /well/ansari/users/osr869/host/lcwgs_edits/data/gnomAD_bgzip/gnomAD_MAF_eas_chr18.txt.gz, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/chr18.vcf.gz
+    jobid: 37
+    reason: Missing output files: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/chr18.vcf.gz
+    wildcards: chr=18
+    resources: tmpdir=/tmp/slurm-21620293
+
+
+[Fri Jun 12 15:21:25 2026]
+rule add_af_to_vcf:
+    input: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged/chr12.vcf.gz, /well/ansari/users/osr869/host/lcwgs_edits/data/gnomAD_MAFs/eas/gnomAD_MAF_eas_chr12.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/af_header.txt
+    output: /well/ansari/users/osr869/host/lcwgs_edits/data/gnomAD_bgzip/gnomAD_MAF_eas_chr12.txt.gz, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/chr12.vcf.gz
+    jobid: 25
+    reason: Missing output files: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/chr12.vcf.gz
+    wildcards: chr=12
+    resources: tmpdir=/tmp/slurm-21620293
+
+[Fri Jun 12 16:25:59 2026]
+Finished job 45.
+1 of 45 steps (2%) done
+Select jobs to execute...
+
+[Fri Jun 12 16:26:00 2026]
+rule add_af_to_vcf:
+    input: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged/chr16.vcf.gz, /well/ansari/users/osr869/host/lcwgs_edits/data/gnomAD_MAFs/eas/gnomAD_MAF_eas_chr16.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/af_header.txt
+    output: /well/ansari/users/osr869/host/lcwgs_edits/data/gnomAD_bgzip/gnomAD_MAF_eas_chr16.txt.gz, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/chr16.vcf.gz
+    jobid: 33
+    reason: Missing output files: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/chr16.vcf.gz
+    wildcards: chr=16
+    resources: tmpdir=/tmp/slurm-21620293
+
+[Fri Jun 12 17:07:44 2026]
+Finished job 41.
+2 of 45 steps (4%) done
+Select jobs to execute...
+
+[Fri Jun 12 17:07:45 2026]
+rule add_af_to_vcf:
+    input: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged/chr2.vcf.gz, /well/ansari/users/osr869/host/lcwgs_edits/data/gnomAD_MAFs/eas/gnomAD_MAF_eas_chr2.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/af_header.txt
+    output: /well/ansari/users/osr869/host/lcwgs_edits/data/gnomAD_bgzip/gnomAD_MAF_eas_chr2.txt.gz, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/chr2.vcf.gz
+    jobid: 5
+    reason: Missing output files: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/chr2.vcf.gz
+    wildcards: chr=2
+    resources: tmpdir=/tmp/slurm-21620293
+
+[Fri Jun 12 17:30:29 2026]
+Finished job 37.
+3 of 45 steps (7%) done
+Select jobs to execute...
+
+[Fri Jun 12 17:30:30 2026]
+rule add_af_to_vcf:
+    input: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged/chr5.vcf.gz, /well/ansari/users/osr869/host/lcwgs_edits/data/gnomAD_MAFs/eas/gnomAD_MAF_eas_chr5.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/af_header.txt
+    output: /well/ansari/users/osr869/host/lcwgs_edits/data/gnomAD_bgzip/gnomAD_MAF_eas_chr5.txt.gz, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/chr5.vcf.gz
+    jobid: 11
+    reason: Missing output files: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/chr5.vcf.gz
+    wildcards: chr=5
+    resources: tmpdir=/tmp/slurm-21620293
+
+[Fri Jun 12 17:32:31 2026]
+Finished job 35.
+4 of 45 steps (9%) done
+Select jobs to execute...
+
+[Fri Jun 12 17:32:31 2026]
+rule add_af_to_vcf:
+    input: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged/chr9.vcf.gz, /well/ansari/users/osr869/host/lcwgs_edits/data/gnomAD_MAFs/eas/gnomAD_MAF_eas_chr9.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/af_header.txt
+    output: /well/ansari/users/osr869/host/lcwgs_edits/data/gnomAD_bgzip/gnomAD_MAF_eas_chr9.txt.gz, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/chr9.vcf.gz
+    jobid: 19
+    reason: Missing output files: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/chr9.vcf.gz
+    wildcards: chr=9
+    resources: tmpdir=/tmp/slurm-21620293
+
+[Fri Jun 12 17:37:58 2026]
+Finished job 31.
+5 of 45 steps (11%) done
+Select jobs to execute...
+
+[Fri Jun 12 17:37:59 2026]
+rule add_af_to_vcf:
+    input: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged/chr14.vcf.gz, /well/ansari/users/osr869/host/lcwgs_edits/data/gnomAD_MAFs/eas/gnomAD_MAF_eas_chr14.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/af_header.txt
+    output: /well/ansari/users/osr869/host/lcwgs_edits/data/gnomAD_bgzip/gnomAD_MAF_eas_chr14.txt.gz, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/chr14.vcf.gz
+    jobid: 29
+    reason: Missing output files: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/chr14.vcf.gz
+    wildcards: chr=14
+    resources: tmpdir=/tmp/slurm-21620293
+
+[Fri Jun 12 18:59:21 2026]
+Finished job 25.
+6 of 45 steps (13%) done
+Select jobs to execute...
+
+[Fri Jun 12 18:59:22 2026]
+rule add_af_to_vcf:
+    input: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged/chr21.vcf.gz, /well/ansari/users/osr869/host/lcwgs_edits/data/gnomAD_MAFs/eas/gnomAD_MAF_eas_chr21.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/af_header.txt
+    output: /well/ansari/users/osr869/host/lcwgs_edits/data/gnomAD_bgzip/gnomAD_MAF_eas_chr21.txt.gz, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/chr21.vcf.gz
+    jobid: 43
+    reason: Missing output files: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/chr21.vcf.gz
+    wildcards: chr=21
+    resources: tmpdir=/tmp/slurm-21620293
+
+[Fri Jun 12 19:02:35 2026]
+Finished job 33.
+7 of 45 steps (16%) done
+Select jobs to execute...
+
+[Fri Jun 12 19:02:36 2026]
+rule extract_info:
+    input: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/chr20.vcf.gz
+    output: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr20.txt
+    jobid: 40
+    reason: Missing output files: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr20.txt; Input files updated by another job: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/chr20.vcf.gz
+    wildcards: chr=20
+    resources: tmpdir=/tmp/slurm-21620293
+
+[Fri Jun 12 19:08:41 2026]
+Finished job 23.
+8 of 45 steps (18%) done
+Select jobs to execute...
+
+[Fri Jun 12 19:08:42 2026]
+rule extract_info:
+    input: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/chr12.vcf.gz
+    output: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr12.txt
+    jobid: 24
+    reason: Missing output files: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr12.txt; Input files updated by another job: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/chr12.vcf.gz
+    wildcards: chr=12
+    resources: tmpdir=/tmp/slurm-21620293
+
+[Fri Jun 12 19:10:43 2026]
+Finished job 40.
+9 of 45 steps (20%) done
+Select jobs to execute...
+
+[Fri Jun 12 19:10:44 2026]
+rule add_af_to_vcf:
+    input: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged/chr3.vcf.gz, /well/ansari/users/osr869/host/lcwgs_edits/data/gnomAD_MAFs/eas/gnomAD_MAF_eas_chr3.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/af_header.txt
+    output: /well/ansari/users/osr869/host/lcwgs_edits/data/gnomAD_bgzip/gnomAD_MAF_eas_chr3.txt.gz, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/chr3.vcf.gz
+    jobid: 7
+    reason: Missing output files: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/chr3.vcf.gz
+    wildcards: chr=3
+    resources: tmpdir=/tmp/slurm-21620293
+
+[Fri Jun 12 19:24:57 2026]
+Finished job 24.
+10 of 45 steps (22%) done
+Select jobs to execute...
+
+[Fri Jun 12 19:24:59 2026]
+rule add_af_to_vcf:
+    input: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged/chr19.vcf.gz, /well/ansari/users/osr869/host/lcwgs_edits/data/gnomAD_MAFs/eas/gnomAD_MAF_eas_chr19.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/af_header.txt
+    output: /well/ansari/users/osr869/host/lcwgs_edits/data/gnomAD_bgzip/gnomAD_MAF_eas_chr19.txt.gz, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/chr19.vcf.gz
+    jobid: 39
+    reason: Missing output files: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/chr19.vcf.gz
+    wildcards: chr=19
+    resources: tmpdir=/tmp/slurm-21620293
+
+[Fri Jun 12 19:41:17 2026]
+Finished job 17.
+11 of 45 steps (24%) done
+Select jobs to execute...
+
+[Fri Jun 12 19:41:18 2026]
+rule add_af_to_vcf:
+    input: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged/chr10.vcf.gz, /well/ansari/users/osr869/host/lcwgs_edits/data/gnomAD_MAFs/eas/gnomAD_MAF_eas_chr10.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/af_header.txt
+    output: /well/ansari/users/osr869/host/lcwgs_edits/data/gnomAD_bgzip/gnomAD_MAF_eas_chr10.txt.gz, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/chr10.vcf.gz
+    jobid: 21
+    reason: Missing output files: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/chr10.vcf.gz
+    wildcards: chr=10
+    resources: tmpdir=/tmp/slurm-21620293
+
+[Fri Jun 12 19:48:36 2026]
+Finished job 15.
+12 of 45 steps (27%) done
+Select jobs to execute...
+
+[Fri Jun 12 19:48:37 2026]
+rule extract_info:
+    input: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/chr11.vcf.gz
+    output: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr11.txt
+    jobid: 22
+    reason: Missing output files: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr11.txt; Input files updated by another job: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/chr11.vcf.gz
+    wildcards: chr=11
+    resources: tmpdir=/tmp/slurm-21620293
+
+[Fri Jun 12 20:03:52 2026]
+Finished job 43.
+13 of 45 steps (29%) done
+Select jobs to execute...
+
+[Fri Jun 12 20:03:53 2026]
+rule extract_info:
+    input: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/chr18.vcf.gz
+    output: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr18.txt
+    jobid: 36
+    reason: Missing output files: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr18.txt; Input files updated by another job: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/chr18.vcf.gz
+    wildcards: chr=18
+    resources: tmpdir=/tmp/slurm-21620293
+
+[Fri Jun 12 20:05:02 2026]
+Finished job 22.
+14 of 45 steps (31%) done
+Select jobs to execute...
+
+[Fri Jun 12 20:05:02 2026]
+rule extract_info:
+    input: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/chr17.vcf.gz
+    output: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr17.txt
+    jobid: 34
+    reason: Missing output files: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr17.txt; Input files updated by another job: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/chr17.vcf.gz
+    wildcards: chr=17
+    resources: tmpdir=/tmp/slurm-21620293
+
+[Fri Jun 12 20:08:56 2026]
+Finished job 29.
+15 of 45 steps (33%) done
+Select jobs to execute...
+
+[Fri Jun 12 20:08:56 2026]
+rule extract_info:
+    input: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/chr16.vcf.gz
+    output: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr16.txt
+    jobid: 32
+    reason: Missing output files: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr16.txt; Input files updated by another job: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/chr16.vcf.gz
+    wildcards: chr=16
+    resources: tmpdir=/tmp/slurm-21620293
+
+[Fri Jun 12 20:13:11 2026]
+Finished job 36.
+16 of 45 steps (36%) done
+Select jobs to execute...
+
+[Fri Jun 12 20:13:11 2026]
+rule extract_info:
+    input: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/chr8.vcf.gz
+    output: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr8.txt
+    jobid: 16
+    reason: Missing output files: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr8.txt; Input files updated by another job: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/chr8.vcf.gz
+    wildcards: chr=8
+    resources: tmpdir=/tmp/slurm-21620293
+
+[Fri Jun 12 20:14:25 2026]
+Finished job 34.
+17 of 45 steps (38%) done
+Select jobs to execute...
+
+[Fri Jun 12 20:14:25 2026]
+rule extract_info:
+    input: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/chr22.vcf.gz
+    output: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr22.txt
+    jobid: 44
+    reason: Missing output files: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr22.txt; Input files updated by another job: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/chr22.vcf.gz
+    wildcards: chr=22
+    resources: tmpdir=/tmp/slurm-21620293
+
+[Fri Jun 12 20:19:10 2026]
+Finished job 44.
+18 of 45 steps (40%) done
+Select jobs to execute...
+
+[Fri Jun 12 20:19:11 2026]
+rule extract_info:
+    input: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/chr15.vcf.gz
+    output: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr15.txt
+    jobid: 30
+    reason: Missing output files: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr15.txt; Input files updated by another job: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/chr15.vcf.gz
+    wildcards: chr=15
+    resources: tmpdir=/tmp/slurm-21620293
+
+[Fri Jun 12 20:19:59 2026]
+Finished job 32.
+19 of 45 steps (42%) done
+Select jobs to execute...
+
+[Fri Jun 12 20:19:59 2026]
+rule extract_info:
+    input: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/chr21.vcf.gz
+    output: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr21.txt
+    jobid: 42
+    reason: Missing output files: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr21.txt; Input files updated by another job: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/chr21.vcf.gz
+    wildcards: chr=21
+    resources: tmpdir=/tmp/slurm-21620293
+
+[Fri Jun 12 20:24:36 2026]
+Finished job 42.
+20 of 45 steps (44%) done
+Select jobs to execute...
+
+[Fri Jun 12 20:24:37 2026]
+rule extract_info:
+    input: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/chr14.vcf.gz
+    output: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr14.txt
+    jobid: 28
+    reason: Missing output files: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr14.txt; Input files updated by another job: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/chr14.vcf.gz
+    wildcards: chr=14
+    resources: tmpdir=/tmp/slurm-21620293
+
+[Fri Jun 12 20:29:02 2026]
+Finished job 30.
+21 of 45 steps (47%) done
+Select jobs to execute...
+
+[Fri Jun 12 20:29:02 2026]
+rule add_af_to_vcf:
+    input: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged/chr13.vcf.gz, /well/ansari/users/osr869/host/lcwgs_edits/data/gnomAD_MAFs/eas/gnomAD_MAF_eas_chr13.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/af_header.txt
+    output: /well/ansari/users/osr869/host/lcwgs_edits/data/gnomAD_bgzip/gnomAD_MAF_eas_chr13.txt.gz, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/chr13.vcf.gz
+    jobid: 27
+    reason: Missing output files: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/chr13.vcf.gz
+    wildcards: chr=13
+    resources: tmpdir=/tmp/slurm-21620293
+
+[Fri Jun 12 20:31:48 2026]
+Finished job 16.
+22 of 45 steps (49%) done
+Select jobs to execute...
+
+[Fri Jun 12 20:31:48 2026]
+rule add_af_to_vcf:
+    input: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged/chr6.vcf.gz, /well/ansari/users/osr869/host/lcwgs_edits/data/gnomAD_MAFs/eas/gnomAD_MAF_eas_chr6.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/af_header.txt
+    output: /well/ansari/users/osr869/host/lcwgs_edits/data/gnomAD_bgzip/gnomAD_MAF_eas_chr6.txt.gz, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/chr6.vcf.gz
+    jobid: 13
+    reason: Missing output files: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/chr6.vcf.gz
+    wildcards: chr=6
+    resources: tmpdir=/tmp/slurm-21620293
+
+[Fri Jun 12 20:35:19 2026]
+Finished job 28.
+23 of 45 steps (51%) done
+Select jobs to execute...
+
+[Fri Jun 12 20:35:19 2026]
+rule extract_info:
+    input: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/chr7.vcf.gz
+    output: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr7.txt
+    jobid: 14
+    reason: Missing output files: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr7.txt; Input files updated by another job: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/chr7.vcf.gz
+    wildcards: chr=7
+    resources: tmpdir=/tmp/slurm-21620293
+
+[Fri Jun 12 20:44:40 2026]
+Finished job 9.
+24 of 45 steps (53%) done
+Select jobs to execute...
+
+[Fri Jun 12 20:44:40 2026]
+rule extract_info:
+    input: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/chr4.vcf.gz
+    output: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr4.txt
+    jobid: 8
+    reason: Missing output files: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr4.txt; Input files updated by another job: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/chr4.vcf.gz
+    wildcards: chr=4
+    resources: tmpdir=/tmp/slurm-21620293
+
+[Fri Jun 12 20:54:35 2026]
+Finished job 14.
+25 of 45 steps (56%) done
+[Fri Jun 12 20:56:57 2026]
+Finished job 19.
+26 of 45 steps (58%) done
+Select jobs to execute...
+
+[Fri Jun 12 20:56:57 2026]
+rule extract_info:
+    input: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/chr9.vcf.gz
+    output: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr9.txt
+    jobid: 18
+    reason: Missing output files: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr9.txt; Input files updated by another job: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/chr9.vcf.gz
+    wildcards: chr=9
+    resources: tmpdir=/tmp/slurm-21620293
+
+[Fri Jun 12 21:04:13 2026]
+Finished job 39.
+27 of 45 steps (60%) done
+Select jobs to execute...
+
+[Fri Jun 12 21:04:13 2026]
+rule extract_info:
+    input: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/chr19.vcf.gz
+    output: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr19.txt
+    jobid: 38
+    reason: Missing output files: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr19.txt; Input files updated by another job: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/chr19.vcf.gz
+    wildcards: chr=19
+    resources: tmpdir=/tmp/slurm-21620293
+
+[Fri Jun 12 21:06:35 2026]
+Finished job 8.
+28 of 45 steps (62%) done
+[Fri Jun 12 21:09:58 2026]
+Finished job 18.
+29 of 45 steps (64%) done
+[Fri Jun 12 21:10:18 2026]
+Finished job 38.
+30 of 45 steps (67%) done
+[Fri Jun 12 21:55:10 2026]
+Finished job 11.
+31 of 45 steps (69%) done
+Select jobs to execute...
+
+[Fri Jun 12 21:55:10 2026]
+rule extract_info:
+    input: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/chr5.vcf.gz
+    output: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr5.txt
+    jobid: 10
+    reason: Missing output files: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr5.txt; Input files updated by another job: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/chr5.vcf.gz
+    wildcards: chr=5
+    resources: tmpdir=/tmp/slurm-21620293
+
+[Fri Jun 12 22:08:16 2026]
+Finished job 10.
+32 of 45 steps (71%) done
+[Fri Jun 12 22:18:15 2026]
+Finished job 27.
+33 of 45 steps (73%) done
+Select jobs to execute...
+
+[Fri Jun 12 22:18:15 2026]
+rule extract_info:
+    input: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/chr13.vcf.gz
+    output: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr13.txt
+    jobid: 26
+    reason: Missing output files: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr13.txt; Input files updated by another job: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/chr13.vcf.gz
+    wildcards: chr=13
+    resources: tmpdir=/tmp/slurm-21620293
+
+[Fri Jun 12 22:24:16 2026]
+Finished job 26.
+34 of 45 steps (76%) done
+[Fri Jun 12 22:24:26 2026]
+Finished job 21.
+35 of 45 steps (78%) done
+Select jobs to execute...
+
+[Fri Jun 12 22:24:26 2026]
+rule extract_info:
+    input: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/chr10.vcf.gz
+    output: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr10.txt
+    jobid: 20
+    reason: Missing output files: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr10.txt; Input files updated by another job: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/chr10.vcf.gz
+    wildcards: chr=10
+    resources: tmpdir=/tmp/slurm-21620293
+
+[Fri Jun 12 22:31:04 2026]
+Finished job 20.
+36 of 45 steps (80%) done
+[Fri Jun 12 22:33:31 2026]
+Finished job 5.
+37 of 45 steps (82%) done
+Select jobs to execute...
+
+[Fri Jun 12 22:33:31 2026]
+rule extract_info:
+    input: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/chr2.vcf.gz
+    output: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr2.txt
+    jobid: 4
+    reason: Missing output files: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr2.txt; Input files updated by another job: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/chr2.vcf.gz
+    wildcards: chr=2
+    resources: tmpdir=/tmp/slurm-21620293
+
+[Fri Jun 12 22:42:18 2026]
+Finished job 4.
+38 of 45 steps (84%) done
+[Fri Jun 12 22:46:11 2026]
+Finished job 7.
+39 of 45 steps (87%) done
+Select jobs to execute...
+
+[Fri Jun 12 22:46:11 2026]
+rule extract_info:
+    input: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/chr3.vcf.gz
+    output: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr3.txt
+    jobid: 6
+    reason: Missing output files: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr3.txt; Input files updated by another job: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/chr3.vcf.gz
+    wildcards: chr=3
+    resources: tmpdir=/tmp/slurm-21620293
+
+[Fri Jun 12 22:51:10 2026]
+Finished job 6.
+40 of 45 steps (89%) done
+[Fri Jun 12 22:51:57 2026]
+Finished job 13.
+41 of 45 steps (91%) done
+Select jobs to execute...
+
+[Fri Jun 12 22:51:57 2026]
+rule extract_info:
+    input: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/chr6.vcf.gz
+    output: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr6.txt
+    jobid: 12
+    reason: Missing output files: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr6.txt; Input files updated by another job: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_annotated/chr6.vcf.gz
+    wildcards: chr=6
+    resources: tmpdir=/tmp/slurm-21620293
+
+[Fri Jun 12 22:54:03 2026]
+Finished job 12.
+42 of 45 steps (93%) done
+Select jobs to execute...
+
+[Fri Jun 12 22:54:04 2026]
+rule combine_vcf_af:
+    input: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr1.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr2.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr3.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr4.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr5.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr6.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr7.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr8.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr9.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr10.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr11.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr12.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr13.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr14.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr15.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr16.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr17.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr18.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr19.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr20.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr21.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr22.txt
+    output: /well/ansari/users/osr869/host/lcwgs_edits/graphs/quilt_raw_combined.tsv
+    jobid: 46
+    reason: Input files updated by another job: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr10.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr18.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr12.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr21.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr14.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr7.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr20.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr17.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr11.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr6.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr15.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr4.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr16.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr19.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr2.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr22.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr5.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr8.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr13.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr9.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr3.txt; Set of input files has changed since last execution
+    resources: tmpdir=/tmp/slurm-21620293
+
+[Fri Jun 12 22:54:04 2026]
+rule generate_info_plot_af:
+    input: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr1.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr2.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr3.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr4.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr5.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr6.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr7.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr8.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr9.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr10.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr11.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr12.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr13.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr14.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr15.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr16.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr17.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr18.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr19.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr20.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr21.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr22.txt
+    output: /well/ansari/users/osr869/host/lcwgs_edits/graphs/info_vs_maf_sum.png, /well/ansari/users/osr869/host/lcwgs_edits/graphs/sum_INFO.tsv
+    jobid: 1
+    reason: Missing output files: /well/ansari/users/osr869/host/lcwgs_edits/graphs/sum_INFO.tsv, /well/ansari/users/osr869/host/lcwgs_edits/graphs/info_vs_maf_sum.png; Input files updated by another job: /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr10.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr18.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr12.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr21.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr14.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr7.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr20.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr17.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr11.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr6.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr15.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr4.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr16.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr19.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr2.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr22.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr5.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr8.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr13.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr9.txt, /well/ansari/users/osr869/host/lcwgs_edits/results/wip_vcfs/GAsP_b38/merged/raw_merged_af_txt/vcf.af.chr3.txt
+    resources: tmpdir=/tmp/slurm-21620293
+
+[Fri Jun 12 22:59:34 2026]
+Finished job 1.
+43 of 45 steps (96%) done
+[Fri Jun 12 23:06:07 2026]
+Finished job 46.
+44 of 45 steps (98%) done
+Select jobs to execute...
+
+[Fri Jun 12 23:06:07 2026]
+localrule all:
+    input: /well/ansari/users/osr869/host/lcwgs_edits/graphs/info_vs_maf_sum.png, /well/ansari/users/osr869/host/lcwgs_edits/graphs/sum_INFO.tsv, /well/ansari/users/osr869/host/lcwgs_edits/graphs/quilt_raw_combined.tsv
+    jobid: 0
+    reason: Input files updated by another job: /well/ansari/users/osr869/host/lcwgs_edits/graphs/sum_INFO.tsv, /well/ansari/users/osr869/host/lcwgs_edits/graphs/quilt_raw_combined.tsv, /well/ansari/users/osr869/host/lcwgs_edits/graphs/info_vs_maf_sum.png
+    resources: tmpdir=/tmp/slurm-21620293
+
+[Fri Jun 12 23:06:07 2026]
+Finished job 0.
+45 of 45 steps (100%) done
+Complete log: .snakemake/log/2026-06-12T152055.565399.snakemake.log

@@ -4,20 +4,6 @@ This directory is a working snapshot of a Snakemake workflow for low-coverage wh
 
 The workflow was adapted from [LCWGS_pipeline](https://github.com/Suuuuuuuus/LCWGS_pipeline). The local version is project-specific and contains absolute BMRC paths, exploratory scripts, and some modules that are not connected to the current master workflow.
 
-## Before running
-
-1. **Work on BMRC or an equivalent Slurm cluster.** Review account, partition, memory, and path settings before submission.
-2. **Install dependencies.** The handover document recommends the Conda environment `/well/ansari/users/gjx698/recyclable_files/env_yaml/sus.yml`; it is not included here. `pipelines/vanilla_alignment.yml` only covers a minimal alignment environment. The complete workflow also expects QUILT, `lcwgsus`, HLA-LA, QCTool, bcftools, tabix, Trimmomatic, BWA, samtools, Picard, R, Python scientific packages, and module-specific tools.
-3. **Provide external software.** The current code expects software under the configured `home_dir`, especially `software/QUILT`, `software/lcwgsus`, and `software/QUILT_sus`; HLA-LA is currently hard-coded to another user's directory in `pipelines/software.smk`.
-4. **Edit `pipelines/config.json`.** At minimum, check `home_dir`, batch lists, sample lists, reference panel, `RECOMB_POP` (`KHV` for Vietnamese samples), filter thresholds, and all referenced accessory files. Many files also contain hard-coded `/well/ansari/...` paths that must be changed separately.
-5. **Stage paired reads** as `data/fastq/<sample>_1.fastq.gz` and `data/fastq/<sample>_2.fastq.gz`. The handover notes that merged duplicate-sequencing batches (`A*00000`) and ordinary batches should be used, while underscore-named source batches that were later merged should not be used again.
-6. **Stage required resources.** These include GRCh38 FASTA/index/dictionary files, adapters, sample and batch TSVs, BED files, recombination maps, gnomAD East Asian allele frequencies, Omni5M sites, QUILT reference files, and HLA reference files. The handover locates many originals under `/well/ansari/users/gjx698/recyclable_files` and project `data/` directories. The combined GenomeAsia 100K (GAsP) + 1000 Genomes GRCh38 panel was previously stored at `/well/ansari/users/gjx698/dengue/data/ref_panel/GAsP_b38`.
-7. **Dry-run first.** The documented wrapper is `./submit_snakemake.sh lc 1000 <target> -nr`, but neither that script nor its `slurm/` profiles are present in this snapshot. Restore them from the upstream project or use the current BMRC Snakemake/Slurm submission method. A local graph check can be made with, for example:
-
-   ```bash
-   snakemake --snakefile pipelines/master_lc.smk --cores 1 --dry-run alignment_and_qc_all
-   ```
-
 ## Main workflow
 
 Run targets from `pipelines/master_lc.smk` in this order after a successful dry-run:

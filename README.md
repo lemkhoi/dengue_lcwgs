@@ -14,15 +14,6 @@ Run targets from `pipelines/master_lc.smk` in this order after a successful dry-
 4. **Optional targets:** `qc_all` reruns QC without requiring alignment; `sv_all` and `hla_coverage_all` generate coverage inputs for structural-variant/HLA-region work.
 5. **Second-stage TOPMed imputation:** use only carefully reviewed VCFs from `results/wip_vcfs/`. The scripts under `scripts/` show a previous manual submission and post-processing route, not a portable production workflow.
 
-## Important cautions
-
-- This is **not a self-contained release**: `data/`, scheduler wrappers, environment files, and several scripts referenced by standalone modules are absent.
-- Paths and sample IDs are a mixture of the original handover and later edits. Search for `/well/ansari/` before running: `grep -R "/well/ansari/" pipelines scripts`.
-- `scripts/1.8_submit_topmed.sh` contains an embedded API token. Treat it as compromised: revoke/rotate it, remove it from version history, and load a replacement from a protected environment variable. Do not run or commit the file as written.
-- Several files in `scripts/` are one-off diagnostics. In particular, `1.3_uncov_22DX03-0786-201.sh` is an experiment rather than valid end-to-end shell code, and `1.4_sex_check_combined.sh` currently requests three fields from `bcftools query` while its AWK code expects four (including allele depth).
-- Check genome-build and chromosome naming consistency (`38`/`hg38`, `chr1` versus `1`) at every hand-off.
-
-
 ### `pipelines/`
 
 | File | Description |
